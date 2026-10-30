@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "nama": "Laptop",
+    "harga": 750000,
+    "stok": 10
+  },
+  {
+    "id": 2,
+    "nama": "Mouse",
+    "harga": 850000,
+    "stok": 50
+  },
+  {
+    "id": 3,
+    "nama": "Keyboard",
+    "harga": 1500000,
+    "stok": 30
+  },
+  {
+    "id": 4,
+    "nama": "Monitor",
+    "harga": 1800000,
+    "stok": 12
+  },
+  {
+    "id": 5,
+    "nama": "Flashdisk",
+    "harga": 600000,
+    "stok": 100
+  }
+]
