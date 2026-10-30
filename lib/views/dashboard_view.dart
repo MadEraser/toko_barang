@@ -1,7 +1,5 @@
 import  'package:flutter/material.dart';
-import 'package:toko_barang/models/user_model.dart';
-import 'package:toko_barang/views/login_view.dart';
-import '../controllers/auth_controller.dart';
+import '../models/user_model.dart';
 import 'barang_view.dart';
 import 'login_view.dart';
 
@@ -11,7 +9,6 @@ class DashboardView extends StatelessWidget{
 
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
     return Scaffold(
       appBar: AppBar(
         title: const Text('Dashboard'),
@@ -46,7 +43,7 @@ class DashboardView extends StatelessWidget{
                 onPressed: () {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => BarangView())
+                    MaterialPageRoute(builder: (context) => const BarangView())
                   );
                 },
               ),
